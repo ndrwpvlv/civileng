@@ -15,4 +15,4 @@
 - [ ] СП 22.13330.2011. Определение расчетного сопротивления основания
 
 ## Разработка проекта
-Andrei S. Pavlov (civileng.ru)
+Andrei S. Pavlov (https://civileng.ru)
