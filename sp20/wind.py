@@ -9,10 +9,13 @@ class WindSP20:
     def __init__(self, zone: str, zone_type: str, d_width: float,
                  h_height: float, building_type: int = 2):
         """
+        Модуль определения ветровых нагрузок на сооружение
+        Единицы измерения (кПа, м)
+
         zone - ветровой район ('1a', '1', ...)
         zone_type - тип местности ('A', 'B', 'C')
-        d_width - ширина здания поперек ветрового потока
-        h_height - высота здания
+        d_width - ширина здания поперек ветрового потока, метры
+        h_height - высота здания, метры
         building_type - тип здания: 1 - башня, труба и т.п., 2 - обычное здание
         """
         self.zone = zone
